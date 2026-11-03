@@ -1,0 +1,9 @@
+theme: jekyll-theme-cayman
+title: "Zhouyi 6-Bit Combinatorial State Matrix & True Solar Time Engine"
+description: "Zero-dependency Python & TypeScript reference implementation mapping the 64 classical Zhouyi (Book of Changes) hexagrams onto a 6-bit binary hypercube (Q6), with 3-coin vs 50-stalk probability distributions and Equation-of-Time True Solar Time calibration."
+url: "https://lcccsky.github.io"
+baseurl: "/zhouyi-6bit-decision-matrix"
+show_downloads: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
