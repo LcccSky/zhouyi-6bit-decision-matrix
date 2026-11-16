@@ -10,8 +10,15 @@ An open, zero-dependency **Python & TypeScript** reference specification mapping
 - **Structured Consultation Protocol**: [Consult the I Ching Step-by-Step Framework](https://hexsage.ai/consult-the-i-ching) — Inquiry Scope Guardrail, six-round casting matrix, and bilingual line-by-line synthesis.
 - **Binomial Coin Protocol (`1:3:3:1`)**: [Three-Coin I Ching Binomial Simulator](https://hexsage.ai/i-ching-coins) — symmetric Bernoulli trial distribution across values `{6, 7, 8, 9}`.
 - **Classical Stalk Remainder Protocol (`1:5:7:3`)**: [50-Stalk Yarrow Stalks I Ching Simulator](https://hexsage.ai/yarrow-stalks-i-ching) — asymmetric modulo-4 division state transitions.
+- **Changing-Line Transition Rules (0–6 Lines)**: [How to Read I Ching Interpretation & Changing Lines](https://hexsage.ai/i-ching-interpretation) and [Changing Lines Protocol](https://hexsage.ai/how-to-read-changing-lines) — Zhu Xi's 7-case canonical judgment hierarchy compared with holistic and middle-line rules.
+- **8 Trigrams (`Z₂³`) & Binary Structure**: [I Ching Trigrams (Bagua) & 3-Bit Algebra](https://hexsage.ai/i-ching-trigrams) — Shao Yong's `1060 CE` binary ordering and Leibniz's `1703` *Explication de l'Arithmétique Binaire* correspondence.
+- **Binary Decision Matrix**: [I Ching Yes/No & Polarity Assessment](https://hexsage.ai/iching-yes-no) — structured risk-polarity framing without binary oversimplification.
 - **64-State Canonical Reference**: [64 Hexagrams Binary Matrix & Directory](https://hexsage.ai/hexagrams) — complete structural lookup across all 64 vertices of `Q₆`.
 - **Developer Embeds**: [Free Embeddable Zhouyi Hexagram Widgets](https://hexsage.ai/widgets) — lightweight interactive cards for research blogs and documentation sites.
+
+## Open-Source 64-State JSON Dataset (`hexagrams_64_binary.json`)
+
+This repository ships a machine-readable MIT-licensed dataset at [`hexagrams_64_binary.json`](./hexagrams_64_binary.json) containing all `64` King Wen states (`#1–#64`) with Unicode symbols (`U+4DC0–U+4DFF`), Pinyin, English titles, upper/lower trigrams, bottom-to-top `bits_L1_to_L6` vectors, Shao Yong decimal indices (`0–63`), nuclear (`Hu Gua`), opposite (`Cuo Gua`), and inverted (`Zong Gua`) bitstrings, and canonical `hexsage.ai/hexagrams/...` reference URLs.
 
 ---
 
