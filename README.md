@@ -2,6 +2,23 @@
 
 An open, zero-dependency **Python & TypeScript** reference specification mapping the classical 64 hexagrams of the *Zhouyi* (*I Ching* / Book of Changes) onto a **6-bit binary hypercube** (`Q₆ = {0, 1}⁶`), paired with exact line-generation probability distributions (`1:3:3:1` vs `1:3:5:7`) and astronomical **Equation-of-Time True Solar Time** calibration.
 
+## Installation (`PyPI` & `npm`)
+
+Zero runtime dependencies across both Python (`>=3.8`) and Node.js / TypeScript (`ESM` + `CommonJS` + `.d.ts`):
+
+```bash
+# Python (PyPI)
+pip install zhouyi-6bit
+
+# CLI usage
+zhouyi-6bit --method yarrow
+zhouyi-6bit --shao-yong 16 85
+zhouyi-6bit --hex 16
+
+# Node.js / TypeScript (npm)
+npm install zhouyi-6bit
+```
+
 ## Live Interactive Workbenches & Reference Modules
 
 - **Primary Research Workbench**: [HexSage Classical Zhouyi 6-Bit Workbench](https://hexsage.ai/) — browser-based 6-line state-transition sandbox with True Solar Time calibration (no login required).

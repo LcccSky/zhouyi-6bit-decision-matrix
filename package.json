@@ -1,0 +1,47 @@
+{
+  "name": "zhouyi-6bit",
+  "version": "1.1.0",
+  "description": "Zero-dependency 6-bit binary hypercube state machine, 50-stalk yarrow (1:5:7:3) vs 3-coin (2:6:6:2) I Ching probability simulator, Zhu Xi 7-case changing-line hierarchy, and True Solar Time calibration.",
+  "keywords": [
+    "i-ching",
+    "iching",
+    "zhouyi",
+    "hexagram",
+    "yarrow-stalks",
+    "changing-lines",
+    "unchanging-hexagrams",
+    "6-bit-binary",
+    "markov-chain",
+    "true-solar-time"
+  ],
+  "homepage": "https://hexsage.ai/",
+  "bugs": {
+    "url": "https://github.com/LcccSky/zhouyi-6bit-decision-matrix/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LcccSky/zhouyi-6bit-decision-matrix.git"
+  },
+  "license": "MIT",
+  "author": "Ethan Lin · HexSage Classical Systems Research <support@hexsage.ai> (https://hexsage.ai/)",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "hexagrams_64_binary.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node tests/test_engine.mjs"
+  }
+}

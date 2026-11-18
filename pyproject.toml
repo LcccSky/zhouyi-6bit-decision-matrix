@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zhouyi-6bit"
+version = "1.1.0"
+description = "Zero-dependency 6-bit binary hypercube state machine, 50-stalk yarrow (1:5:7:3) vs 3-coin (2:6:6:2) probability simulator, Zhu Xi 7-case changing-line rules, and True Solar Time calibration for the I Ching (Zhouyi)."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+authors = [
+  { name = "Ethan Lin · HexSage Classical Systems Research", email = "support@hexsage.ai" }
+]
+keywords = [
+  "i-ching",
+  "iching",
+  "zhouyi",
+  "hexagram",
+  "yarrow-stalks",
+  "changing-lines",
+  "unchanging-hexagrams",
+  "6-bit-binary",
+  "markov-chain",
+  "true-solar-time"
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Mathematics",
+  "Topic :: Sociology :: History"
+]
+
+[project.urls]
+Homepage = "https://hexsage.ai/"
+Documentation = "https://hexsage.ai/six-lines-najia"
+"Interactive Simulator" = "https://hexsage.ai/i-ching-generator"
+"64 Hexagrams Reference" = "https://hexsage.ai/hexagrams"
+"Changing Lines Calculator" = "https://hexsage.ai/how-to-read-changing-lines"
+Repository = "https://github.com/LcccSky/zhouyi-6bit-decision-matrix"
+
+[project.scripts]
+zhouyi-6bit = "zhouyi_6bit.cli:main"
+
+[tool.setuptools]
+packages = ["zhouyi_6bit"]
+
+[tool.setuptools.package-data]
+zhouyi_6bit = ["hexagrams_64_binary.json"]
