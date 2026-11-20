@@ -1,5 +1,7 @@
 # Zhouyi 6-Bit Combinatorial State Matrix & True Solar Time Engine (`2^6 = 64`)
 
+> **Live Tool:** Official open reference & computational engine behind [**HexSage**](https://hexsage.ai) — a free online **I Ching reading** website, **Six Lines (Liu Yao / Najia) calculator**, and **50-stalk yarrow simulator** (no login required).
+
 An open, zero-dependency **Python & TypeScript** reference specification mapping the classical 64 hexagrams of the *Zhouyi* (*I Ching* / Book of Changes) onto a **6-bit binary hypercube** (`Q₆ = {0, 1}⁶`), paired with exact line-generation probability distributions (`1:3:3:1` vs `1:3:5:7`) and astronomical **Equation-of-Time True Solar Time** calibration.
 
 ## Installation (`PyPI` & `npm`)
